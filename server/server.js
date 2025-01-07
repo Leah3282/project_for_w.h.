@@ -17,7 +17,6 @@ app.use("/api/posts", require("./routes/RoutePosts"))
 app.get('/',(req,res)=>{
         res.send("Hello world!!")
 })
-console.log("make change from branch1")
 console.log("make change from branch2")
 
 console.log(process.env.NODE_ENV)
